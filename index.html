@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- 
+      **** Önce head bölümünde gerekli ayarları yapalım:  ****
+      html-0. karakter seetimizi UTF-8 yapalım
+      html-1. CSS dosyanızı linkleyin
+      html-2. Chelsea Market ve Roboto Mono fontlarını google fontlardan linkleyin
+      html-3. Sayfanın başlığını ayarlayın 'Peri Bacaları Tanıtımı'
+    -->
+    <!-- Html-0 Cevap-->
+    <meta charset="UTF-8" />
+    <!-- Html-1 Cevap-->
+    <link href="index.css" rel="stylesheet" />
+    <!-- Html-2 Cevap-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Html-3 Cevap-->
+    <title>Peri Bacaları Tanıtımı</title>
+  </head>
+
+  <body>
+    <!-- 
+      **** header  ****
+      html-4. header tagi ile header bölümünü ekleyin, class'ı container olsun
+      html-5. header bölümünün içine nav ve a taglerini kullanarak navigasyon bölümünü ekleyin. (İpucu: tag hiyerarşisi doğru olmalı, yoksa test geçmez.) 
+    -->
+
+    <!-- Html-4 Cevap-->
+    <header class="container">
+      <!-- Html-5 Cevap-->
+      <nav>
+        <a href="gezinizi_planlayin.html"> Gezinizi Planlayın </a>
+        <a href="bilgi_edinin.html">Bilgi edinin</a>
+        <a href="karsilastirin.html">Karşılaştırın</a>
+      </nav>
+    </header>
+
+    <!-- html-6. section tagi ile bir bölüm ekleyin, class'ı main-section ve container olsun-->
+    <!-- html-7. Bu bölümün içine "header_img.jpg" adresindeki resmi ekleyin -->
+    <div class="main-content">
+      <!-- Html-6 Cevap-->
+
+      <section class="main-section container">
+        <img src="assets/header_img.jpg" />
+      </section>
+
+      <!-- html-8. Alttaki içeriği div tagi ile gruplayın ve class'ını main-content yapın -->
+      <!-- html-9. Başlık için uygun bir başlık tag'i kullanın (ipucu: bu başlık ana başlık olacak) -->
+
+      <!-- Html-8 Cevap-->
+
+      <section class="features-section container">
+        <!-- Html-9 Cevap-->
+        <h1>Peri Bacaları Tanıtımı</h1>
+        <!-- html-10. Alttaki 2 cümleyi uygun tag ile çevreleyin -->
+
+        <!-- Html-10 Cevap -->
+        <p>
+          Peri Bacaları Tanıtımı Gelin ve Nevşehir'in gizli güzelliklerini
+          keşfedin.
+        </p>
+
+        <p>
+          <!-- -->
+          Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
+        </p>
+      </section>
+      <!-- html-11. section tagi ile bir bölüm ekleyin, class'ı info-section ve container olsun -->
+      <!-- html-12. aşağıdaki paragrafların her biri için bir tane paragraf tagi ekleyin. -->
+
+      <!-- Html-11 Cevap -->
+      <section class="info-section container">
+        <!-- Html-12 Cevap -->
+        <p>
+          Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan
+          Kapadokya'yı gezerken derin bir merak duyduğunuzu biliyoruz. 'Peri
+          bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla
+          nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin
+          altında nasıl yaşadı' diye binlerce soru geliyor gezginin aklına.
+        </p>
+
+        <p>
+          Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik
+          havasının da şöyle düşündürdüğü biliyoruz; 'Kapadokya eskiden
+          perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!'
+        </p>
+      </section>
+
+      <!-- -->
+
+      <!-- html-13. section tagi ile bir bölüm ekleyin, class'ı features-section ve container olsun-->
+      <!-- html-14. alttaki içeriği div ile gruplayın ve class'ını features-card yapın -->
+      <!-- html-15. ,içine "hot-air-balloon.svg" adresindeki görseli ekleyin -->
+      <!-- html-16. paragraf ekleyin ve tasarımda vurgulanan kelimeleri span ile gruplayın, span'lerin class'ını 'emphasize' yapın -->
+
+      <!-- Html-13 Cevap -->
+      <section class="features-section container">
+        <!-- Html-14 Cevap -->
+        <div class="features-card">
+          <!-- Html-15 Cevap -->
+          <img src="assets/hot-air-balloon.svg" />
+          <p>
+            Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz
+            sıcak hava balonları ile yapılan turlar. Her sabah gün doğumundan
+            önce yüzlerce sıcak hava balonlarından oluşan konvoy ile
+            Kapadokya'nın eşsiz güzellikteki manzaralarını havadan izlemek
+            katılımcılar için gerçekten
+            <span class="emphasize">olağanüstü ve rüya gibi bir deneyim.</span>
+          </p>
+        </div>
+
+        <!-- html-17. alttaki içeriği gruplayın ve class'ını features-card yapın -->
+        <!-- html-18.  içine "atv.svg" adresindeki görseli ekleyin -->
+        <!-- html-19. paragraf ekleyin ve tasarımda vurgulanan kelimeleri span ile gruplayın, span'lerin class'ını 'emphasize' yapın -->
+
+        <!-- Html-17 Cevap -->
+        <div class="features-card">
+          <!-- Html-18 Cevap -->
+          <img src="assets/atv.svg" alt="ATV" />
+          <!-- Html-19 Cevap -->
+          <p>
+            ATV turları, Kapadokya'yı gezmenin heyecan verici, eğlenceli ve
+            farklı bir yoludur. Bölgenin eşsiz ve muhteşem vadileri,
+            <span class="emphasize">
+              dünyanın en iyi ATV turlarından birini
+            </span>
+            deneyimlemenize fırsat verir. ATV turlarının herkes için uygun bir
+            aktivite olduğunu söylemeliyiz.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--html-20. footer tagi ile bir footer ekleyin -->
+    <!-- html-21. içine "footer_img.png" adresindeki görseli ekleyin -->
+    <!-- html-22. footer bölümüne container class'ına sahip bir nav ekleyin. İçine anchor tagleri kullanarak aşağıdaki bağlantıları ekleyin-->
+
+    <!-- Html-20 Cevap -->
+    <footer>
+      <!-- Html-21 Cevap -->
+      <img src="assets/footer_img.jpg" />
+
+      <!-- Html-22 Cevap -->
+      <nav class="container">
+        <a href="gezinizi_planlayin.html">Gezinizi Planlayın</a>
+        <a href="bilgi_edinin.html">Bilgi edinin</a>
+        <a href="karsilatirin.html">Karşılaştırın</a>
+      </nav>
+    </footer>
+  </body>
+</html>
